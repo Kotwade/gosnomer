@@ -1,6 +1,10 @@
 .fine {
   padding-top: 160px;
   padding-bottom: 300px;
+
+  @media (max-width: 670px) {
+    padding-bottom: 100px;
+  }
 }
 
 .fine h2 {
