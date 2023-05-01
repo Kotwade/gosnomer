@@ -1,0 +1,22 @@
+.button {
+  background-color: #ecc924;
+  color: $black;
+  font-size: 18px;
+  line-height: 18px;
+  font-weight: 700;
+  width: 295px;
+  padding: 20px 20px;
+  border: none;
+  border-radius: 25px;
+  text-decoration: none;
+  display: block;
+  text-align: center;
+
+  &:hover {
+    background-color: rgba(#ecc924, 0.8);
+  }
+
+  @media (max-width: 1050px) {
+    margin: 0 auto;
+  }
+}
