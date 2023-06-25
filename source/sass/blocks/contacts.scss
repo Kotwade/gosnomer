@@ -1,6 +1,5 @@
 .contacts {
-  padding-top: 100px;
-  padding-bottom: 300px;
+  padding-bottom: 60px;
 }
 
 .contacts__wrapper {
@@ -22,12 +21,24 @@
   font-weight: 700;
   margin-bottom: 100px;
   margin-left: 30px;
+
+  @media (max-width: 400px) {
+    font-size: 24px;
+    line-height: 24px;
+    margin-bottom: 35px;
+    text-align: center;
+  }
 }
 
 .contacts__text p {
   font-size: 24px;
   line-height: 24px;
   margin-bottom: 70px;
+  text-align: center;
+
+  @media (max-width: 400px) {
+    margin-bottom: 35px;
+  }
 }
 
 .contacts__button {
@@ -37,25 +48,35 @@
 .contacts__socials {
   width: 300px;
   margin-top: 135px;
+
+  @media (max-width: 400px) {
+    margin-top: 70px;
+  }
 }
 
 .contacts__item {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 50px;
+  margin-bottom: 30px;
 }
 
 .contacts__item span {
   font-size: 24px;
   line-height: 24px;
   display: block;
+  text-align: left;
+
+  @media(max-width: 400px) {
+    font-size: 18px;
+    line-height: 18px;
+  }
 }
 
 .contacts__email {
   margin-left: 30px;
 
-  @media (max-width: 400px) {
-    margin-left: 0;
+  @media(max-width: 400px) {
+    margin-left: 80px;
   }
 }
